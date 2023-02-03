@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+.con2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.con1{
+    margin-top: 0px;
+    height: 90vh;
+    background-image: linear-gradient(
+        rgb(109, 157, 202),
+        rgb(250, 202, 210),
+        white
+    );
+    padding: 30px;
+}
+
+.table-table-bordered{
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+.con3{
+    margin-top: 80px;
+    display: flex;
+
+}
+button{
+    margin-left: 10px;
+    height: 45px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+input{
+    width: 500px;
+    height: 40px;
+    margin-top: 80px;
+}
+tr{
+    background-color: white;
+}
